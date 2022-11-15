@@ -1,1 +1,1 @@
-# Backend Server for a login system
+# Backend Server for a Notes application
