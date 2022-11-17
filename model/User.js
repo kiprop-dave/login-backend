@@ -22,6 +22,9 @@ const userSchema = new Schema({
     required: true,
   },
   todos: [todoSchema],
+  refreshToken: {
+    type: String,
+  },
 });
 
 module.exports = mongoose.model("User", userSchema);

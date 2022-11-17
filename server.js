@@ -7,6 +7,7 @@ const corsOptions = require("./config/corsOptions");
 const { logRequests } = require("./middleware/logEvents");
 const logErrors = require("./middleware/errorLogger");
 const credentials = require("./middleware/credentials");
+const verifyToken = require("./middleware/verifyJWT");
 const PORT = process.env.PORT || 3500;
 const mongoose = require("mongoose");
 const connectDb = require("./config/dbConnection");
@@ -21,6 +22,8 @@ app.use(cookieParser());
 
 app.use("/signup", require("./routes/signUp"));
 app.use("/login", require("./routes/login"));
+app.use("/refresh", require("./routes/refresh"));
+app.use(verifyToken);
 app.use("/api/todos", require("./routes/api/todos"));
 
 app.get("/", (req, res) => {
