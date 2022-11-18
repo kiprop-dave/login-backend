@@ -1,1 +1,1 @@
-# Backend Server for a Notes application
+# Backend Server for a Todo application
