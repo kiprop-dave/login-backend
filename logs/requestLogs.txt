@@ -1,15 +1,7 @@
-
-16:11:02	17/11/2022 - Method:POST , URL:/login , Origin:undefined
-16:11:24	17/11/2022 - Method:GET , URL:/refresh , Origin:undefined
-16:11:59	17/11/2022 - Method:POST , URL:/login , Origin:undefined
-16:11:47	17/11/2022 - Method:GET , URL:/refresh , Origin:undefined
-16:11:33	17/11/2022 - Method:POST , URL:/login , Origin:undefined
-16:11:56	17/11/2022 - Method:GET , URL:/refresh , Origin:undefined
-16:11:06	17/11/2022 - Method:POST , URL:/login , Origin:undefined
-16:11:18	17/11/2022 - Method:GET , URL:/refresh , Origin:undefined
-16:11:29	17/11/2022 - Method:POST , URL:/login , Origin:undefined
-16:11:38	17/11/2022 - Method:GET , URL:/refresh , Origin:undefined
-16:11:50	17/11/2022 - Method:GET , URL:/refresh , Origin:undefined
-16:11:54	17/11/2022 - Method:GET , URL:/refresh , Origin:undefined
-16:11:58	17/11/2022 - Method:GET , URL:/refresh , Origin:undefined
-16:11:00	17/11/2022 - Method:GET , URL:/refresh , Origin:undefined
+17:11:14	21/11/2022 - Method:GET , URL:/login , Origin:undefined
+17:11:33	21/11/2022 - Method:GET , URL:/login , Origin:undefined
+17:11:43	21/11/2022 - Method:POST , URL:/login , Origin:undefined
+17:11:02	21/11/2022 - Method:DELETE , URL:/clear , Origin:undefined
+17:11:25	21/11/2022 - Method:DELETE , URL:/api/todos/clear , Origin:undefined
+17:11:39	21/11/2022 - Method:POST , URL:/login , Origin:undefined
+17:11:27	21/11/2022 - Method:DELETE , URL:/api/todos/delete , Origin:undefined
