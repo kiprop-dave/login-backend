@@ -13,7 +13,7 @@ const mongoose = require("mongoose");
 const connectDb = require("./config/dbConnection");
 
 connectDb();
-app.use(logRequests);
+// app.use(logRequests);
 app.use(credentials);
 app.use(cors(corsOptions));
 app.use(express.urlencoded({ extended: false }));
@@ -26,9 +26,9 @@ app.use("/refresh", require("./routes/refresh"));
 app.use(verifyToken);
 app.use("/api/todos", require("./routes/api/todos"));
 
-app.get("/", (req, res) => {
-  res.send("hello world");
-});
+// app.get("/", (req, res) => {
+//   res.send("hello world");
+// });
 
 app.use(logErrors);
 mongoose.connection.once("open", () => {

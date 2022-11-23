@@ -1,7 +1,0 @@
-17:11:14	21/11/2022 - Method:GET , URL:/login , Origin:undefined
-17:11:33	21/11/2022 - Method:GET , URL:/login , Origin:undefined
-17:11:43	21/11/2022 - Method:POST , URL:/login , Origin:undefined
-17:11:02	21/11/2022 - Method:DELETE , URL:/clear , Origin:undefined
-17:11:25	21/11/2022 - Method:DELETE , URL:/api/todos/clear , Origin:undefined
-17:11:39	21/11/2022 - Method:POST , URL:/login , Origin:undefined
-17:11:27	21/11/2022 - Method:DELETE , URL:/api/todos/delete , Origin:undefined
